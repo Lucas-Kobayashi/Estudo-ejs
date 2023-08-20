@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="../../public/css/style.css" />
+<article class="content">
+  <% posts.forEach((item) => { %>
+  <h3><%= item.title %></h3>
+  <p><%= item.text %></p>
+    <% if(item.stars) { %> 
+      <% for( let index = 0; index < item.stars; index++ ) { %>
+      <img src="https://cdn-icons-png.flaticon.com/512/686/686384.png" alt="" />
+      <% } %> 
+    <% } %> 
+  <% }); %>
+</article>

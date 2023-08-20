@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: beige;
+}
+
+.header {
+  padding: 10rem 0rem;
+  text-align: center;
+  font-size: 5rem;
+  background-image: url(../images/MuseumOfGlass_-842.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.nav-bar {
+  width: 20%;
+  background-color: #a3a3a3;
+}
+
+.nav-bar ul {
+  list-style: none;
+  text-align: center;
+  margin: 3rem 0rem;
+}
+
+.nav-bar ul li {
+  width: 100%;
+  margin: 2rem 0rem;
+}
+
+.nav-bar ul li a {
+  background-color: #610100;
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  width: 15rem;
+}
+
+.nav-bar ul li a:hover {
+  background-color: #573636;
+  transition: all 0.5s ease;
+  font-size: 2rem;
+}
+
+.content {
+  width: 80%;
+  background: #d8d8d8;
+  padding: 4rem 3rem;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+}
+
+.content p {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+.footer {
+  background: gray;
+  text-align: center;
+  padding: 3.6rem 0;
+  font-size: 2rem;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
